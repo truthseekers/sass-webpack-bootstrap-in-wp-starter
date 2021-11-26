@@ -12,7 +12,8 @@ Linux, Docker & Kubernetes, React.js, GraphQL, SQL, Mongo, Emacs & more. Anythin
 
 ### Instructions:
 
-0. setup a local wordpress environment. This project uses Astra as a parent. Should be easy to customize and use your own theme.
-1. npm install
-2. npm run dev (runs webpack, which uses src/app.scss and src/app.js to generate /dist/ files, which are used in functions.php)
-3. Visit your website and sass should work, along with Bootstrap.
+- setup a local wordpress environment. This project uses Astra as a parent. Should be easy to customize and use your own theme.
+- activate this project as current "child theme", with astra as parent (in wp admin)
+- npm install
+- npm run dev (runs webpack, which uses src/app.scss and src/app.js to generate /dist/ files, which are used in functions.php)
+- Visit your website and sass should work, along with Bootstrap.
